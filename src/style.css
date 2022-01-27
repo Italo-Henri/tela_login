@@ -1,25 +1,80 @@
-.header h1 {
-    font-style: oblique;
+.header {
+    background-color: rgb(233, 222, 201);
     display: flex;
     align-items: center;
-    background-color: rgb(233, 222, 201);
-
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
 }
 
 h1 {
+    margin: 0px;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-}
 
-body {
-    background-color: tomato;
-}
+    }
 
-.container .box {
+.box {
     width: 325px;
     height: 325px;
-    background-color: white;
+    background: #fff;
+    display: grid;
+    justify-content: center;
+    
+    }
+
+body {
+    margin: 0px;
+
+    }
+
+h1.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 0px;
+    align-content: flex-end;
+    flex-wrap: wrap;
+
 }
 
-.title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.form {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.email {
+    display: grid;
+    margin: 5px;
+    padding: 10px;
+}
+
+.password {
+    display: grid;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+span {
+    margin: 5px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap
 }
