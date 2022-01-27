@@ -1,0 +1,25 @@
+.header h1 {
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 222, 201);
+
+}
+
+h1 {
+    align-items: center;
+}
+
+body {
+    background-color: tomato;
+}
+
+.container .box {
+    width: 325px;
+    height: 325px;
+    background-color: white;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
